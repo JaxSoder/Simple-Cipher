@@ -1,0 +1,11 @@
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\bin\Debug\JaxsCipher.exe.config
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\bin\Debug\JaxsCipher.exe
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\bin\Debug\JaxsCipher.pdb
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.csprojAssemblyReference.cache
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.Form1.resources
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.Properties.Resources.resources
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.csproj.GenerateResource.cache
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.csproj.CoreCompileInputs.cache
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.exe
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.pdb
+F:\-----Programming----\C# Visual Studio\Practice C# Programs\JaxsCipher\JaxsCipher\obj\Debug\JaxsCipher.HelpForm.resources
