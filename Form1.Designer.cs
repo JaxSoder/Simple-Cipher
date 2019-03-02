@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.NotWorkingBtn = new System.Windows.Forms.Button();
+            this.GithubLink = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // InputCipherText
@@ -134,12 +135,24 @@
             this.NotWorkingBtn.UseVisualStyleBackColor = true;
             this.NotWorkingBtn.Click += new System.EventHandler(this.NotWorkingBtn_Click);
             // 
+            // GithubLink
+            // 
+            this.GithubLink.AutoSize = true;
+            this.GithubLink.Location = new System.Drawing.Point(540, 423);
+            this.GithubLink.Name = "GithubLink";
+            this.GithubLink.Size = new System.Drawing.Size(38, 13);
+            this.GithubLink.TabIndex = 11;
+            this.GithubLink.TabStop = true;
+            this.GithubLink.Text = "Github";
+            this.GithubLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GithubLink_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(697, 450);
+            this.Controls.Add(this.GithubLink);
             this.Controls.Add(this.NotWorkingBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,6 +182,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button NotWorkingBtn;
+        private System.Windows.Forms.LinkLabel GithubLink;
     }
 }
 
