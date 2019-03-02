@@ -26,7 +26,7 @@ namespace JaxsCipher
         {
             StringBuilder ChipherStringBuild = new StringBuilder(newText);
 
-
+            //test
             ChipherStringBuild.Replace("1", " ``_` ");
             ChipherStringBuild.Replace("2", " --` ");
             ChipherStringBuild.Replace("3", " ==-- [][] ");
