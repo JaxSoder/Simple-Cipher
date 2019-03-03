@@ -39,7 +39,8 @@
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label1.Size = new System.Drawing.Size(344, 85);
             this.label1.TabIndex = 2;
-            this.label1.Text = " ";
+            this.label1.Text = "-- Jaxs Cipher currently only works with numbers. When using this tool there shou" +
+    "ld be no spaces. That can mess up the Algorithm. ";
             // 
             // label2
             // 
