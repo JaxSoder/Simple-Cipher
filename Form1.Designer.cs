@@ -39,6 +39,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.NotWorkingBtn = new System.Windows.Forms.Button();
             this.GithubLink = new System.Windows.Forms.LinkLabel();
+            this.CopyBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputCipherText
@@ -47,6 +48,7 @@
             this.InputCipherText.Location = new System.Drawing.Point(17, 62);
             this.InputCipherText.Multiline = true;
             this.InputCipherText.Name = "InputCipherText";
+            this.InputCipherText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.InputCipherText.Size = new System.Drawing.Size(241, 149);
             this.InputCipherText.TabIndex = 0;
             // 
@@ -66,6 +68,7 @@
             this.OutputCipherText.Location = new System.Drawing.Point(436, 62);
             this.OutputCipherText.Multiline = true;
             this.OutputCipherText.Name = "OutputCipherText";
+            this.OutputCipherText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.OutputCipherText.Size = new System.Drawing.Size(241, 149);
             this.OutputCipherText.TabIndex = 3;
             // 
@@ -85,6 +88,7 @@
             this.InputDecipherText.Location = new System.Drawing.Point(17, 258);
             this.InputDecipherText.Multiline = true;
             this.InputDecipherText.Name = "InputDecipherText";
+            this.InputDecipherText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.InputDecipherText.Size = new System.Drawing.Size(241, 149);
             this.InputDecipherText.TabIndex = 5;
             // 
@@ -94,6 +98,7 @@
             this.OutputDecipherText.Location = new System.Drawing.Point(436, 258);
             this.OutputDecipherText.Multiline = true;
             this.OutputDecipherText.Name = "OutputDecipherText";
+            this.OutputDecipherText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.OutputDecipherText.Size = new System.Drawing.Size(241, 149);
             this.OutputDecipherText.TabIndex = 6;
             // 
@@ -146,12 +151,23 @@
             this.GithubLink.Text = "Github";
             this.GithubLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GithubLink_LinkClicked);
             // 
+            // CopyBtn
+            // 
+            this.CopyBtn.Location = new System.Drawing.Point(661, 36);
+            this.CopyBtn.Name = "CopyBtn";
+            this.CopyBtn.Size = new System.Drawing.Size(16, 23);
+            this.CopyBtn.TabIndex = 12;
+            this.CopyBtn.Text = "C";
+            this.CopyBtn.UseVisualStyleBackColor = true;
+            this.CopyBtn.Click += new System.EventHandler(this.CopyBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(697, 450);
+            this.Controls.Add(this.CopyBtn);
             this.Controls.Add(this.GithubLink);
             this.Controls.Add(this.NotWorkingBtn);
             this.Controls.Add(this.label3);
@@ -164,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InputCipherText);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "Jaxs_Cipher";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -183,6 +200,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button NotWorkingBtn;
         private System.Windows.Forms.LinkLabel GithubLink;
+        private System.Windows.Forms.Button CopyBtn;
     }
 }
 

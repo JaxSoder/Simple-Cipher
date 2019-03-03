@@ -66,5 +66,10 @@ namespace JaxsCipher
         {
             System.Diagnostics.Process.Start("https://github.com/JaxSoder/JaxsCipher");
         }
+
+        private void CopyBtn_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(OutputCipherText.Text);
+        }
     }
 }

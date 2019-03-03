@@ -28,28 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(344, 85);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "-- Jaxs Cipher currently only works with numbers. When using this tool there shou" +
-    "ld be no spaces. That can mess up the Algorithm. ";
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(12, 45);
-            this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(98, 32);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Good Ex: 2342    Bad Ex: 2 3 45 32";
             // 
             // HelpForm
             // 
@@ -57,8 +36,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(368, 238);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "HelpForm";
             this.Text = "HelpForm";
             this.ResumeLayout(false);
@@ -66,7 +43,5 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
