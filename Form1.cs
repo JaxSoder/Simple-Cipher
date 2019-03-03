@@ -19,15 +19,15 @@ namespace JaxsCipher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cipher();
+            BeginCipher();
         }
 
         private void DecipherBtn_Click(object sender, EventArgs e)
         {
-            Decipher();
+            BeginDecipher();
         }
 
-        void Cipher()
+        void BeginCipher()
         {
             string outputPath = OutputCipherText.Text;
             string inputPath = InputCipherText.Text;
@@ -41,7 +41,7 @@ namespace JaxsCipher
             OutputCipherText.Text = output;
         }
 
-        void Decipher()
+        void BeginDecipher()
         {
             string outputPath = OutputDecipherText.Text;
             string inputPath = InputDecipherText.Text;

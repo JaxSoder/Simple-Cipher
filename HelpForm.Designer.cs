@@ -28,16 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // label1
             // 
@@ -46,8 +39,8 @@
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label1.Size = new System.Drawing.Size(344, 85);
             this.label1.TabIndex = 2;
-            this.label1.Text = "-- Jacks Cipher currently only works with numbers. When using this tool there sho" +
-    "uld be no spaces. That can mess up the Algorithm. ";
+            this.label1.Text = "-- Jaxs Cipher currently only works with numbers. When using this tool there shou" +
+    "ld be no spaces. That can mess up the Algorithm. ";
             // 
             // label2
             // 
@@ -73,8 +66,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
